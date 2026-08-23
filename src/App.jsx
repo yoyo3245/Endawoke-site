@@ -5,6 +5,7 @@ import ResearchPage from './pages/ResearchPage';
 import MediaPage from './pages/MediaPage';
 import AwardsPage from './pages/AwardsPage';
 import TravelPage from './pages/TravelPage';
+import AmberPage from './pages/AmberPage';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="media" element={<MediaPage />} />
         <Route path="awards" element={<AwardsPage />} />
         <Route path="travel" element={<TravelPage />} />
+        <Route path="amber" element={<AmberPage />} />
         <Route path="*" element={<Navigate to="/research" replace />} />
       </Route>
     </Routes>

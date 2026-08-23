@@ -1,3 +1,18 @@
+// Each entry supports:
+//   imageSrc    (required) - path to the card's image, e.g. "/images/foo.jpg"
+//   imageAlt    (required) - alt text for the image
+//   textContent (required) - HTML string rendered as the card's caption
+//   imageLink   (optional) - URL to open when the image is clicked (e.g. the
+//                            article, video, or audio clip the image represents).
+//                            Without it the image is just displayed, not clickable.
+//
+// Example:
+// {
+//   imageSrc: "/images/foo.jpg",
+//   imageAlt: "audio clip",
+//   textContent: "<i><b>Some caption text</b></i>",
+//   imageLink: "https://example.com/article",
+// },
 
 const mediaData = [
   {
@@ -7,6 +22,7 @@ const mediaData = [
   },
    {
     imageSrc: "/images/deutsche-welle-logo.png",
+    imageLink: "https://www.dw.com/am/.../audio-47016756",
     imageAlt: "audio clip",
     textContent: "<i><b>In January 2019 the German radio <a href=\"https://www.dw.com/am/.../audio-47016756\"><u><b> Amahric Science program </b></u></a> invited me to talk about my AGU Medal award. </b></i>"
   },

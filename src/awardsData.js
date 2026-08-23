@@ -15,6 +15,13 @@
 //                              to use as that thumbnail instead of YouTube's
 //                              auto-generated one. Only used when youtubeUrl
 //                              is also set.
+//   image         (optional) - path to a picture (e.g. "/images/foo.jpg")
+//                              shown underneath the description/link in the
+//                              card body. Independent of youtubeUrl/previewImage.
+//   imageLink     (optional) - URL to open when `image` is clicked (e.g. a
+//                              full-size version or an external page). Only
+//                              used when `image` is also set; without it the
+//                              image is just displayed, not clickable.
 //
 // Example:
 // {
@@ -25,6 +32,8 @@
 //   linkLabel: "View certificate",
 //   youtubeUrl: "https://www.youtube.com/watch?v=VIDEO_ID",
 //   previewImage: "/images/my-custom-thumbnail.jpg",
+//   image: "/images/fellow-ceremony.jpg",
+//   imageLink: "/images/fellow-ceremony-full.jpg",
 // },
 
 const awardsData = [
@@ -40,18 +49,16 @@ const awardsData = [
     {
     title: "Associate Fellow of Ethiopian Academy of Sciences",
     year: "2018",
-    description: "For his significant contributions to...",
-    link: "/Publications/Fellow.pdf",
-    linkLabel: "View certificate",
-    previewImage: "/images/eaward.png",
+    description: "In recognition of his contributions towards the expansion of the frontiers of scientific knowledge",
+    image: "/images/IMG_03.jpg",
+    imageLink: "https://eas-et.org/eas-fellows/",
     },
    {
     title: "Associate Fellow of African Geophysical Society",
     year: "2014",
-    description: "For his significant contributions to...",
-    link: "/Publications/AF_Fellow.pdf",
-    linkLabel: "View certificate",
-    imageSrc: "/images/IMG_03.jpg"
+    description: "For his significant contributions towards the advancement of geophysical sciences in Africa.",
+    image: "/images/IMG_03.jpg",
+    imageLink: "https://afgps.org/",
     },
    {
     title: "UCLA Chancellor’s Award for Postdoctoral Research",

@@ -20,6 +20,7 @@ const Layout = () => {
               <li><NavLink to="/media" className={navLinkClassName}>Media</NavLink></li>
               <li><NavLink to="/awards" className={navLinkClassName}>Awards</NavLink></li>
               <li><NavLink to="/travel" className={navLinkClassName}>Travel</NavLink></li>
+              <li><NavLink to="/amber" className={navLinkClassName}>AMBER</NavLink></li>
             </ul>
           </nav>
         </div>
@@ -31,7 +32,7 @@ const Layout = () => {
 
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} Dr. Endawoke Yizengaw</p>
-        <p className="site-credit">Site created by Yoseph Endawoke</p>
+        <p className="site-credit">Developed by Yoseph Endawoke</p>
       </footer>
     </div>
   );

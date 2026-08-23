@@ -13,6 +13,7 @@ const MediaPage = () => {
               imageSrc={item.imageSrc}
               imageAlt={item.imageAlt}
               textContent={item.textContent}
+              imageLink={item.imageLink}
             />
           ))
         }

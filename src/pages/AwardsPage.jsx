@@ -19,6 +19,8 @@ const AwardsPage = () => {
                   linkLabel={item.linkLabel}
                   youtubeUrl={item.youtubeUrl}
                   previewImage={item.previewImage}
+                  image={item.image}
+                  imageLink={item.imageLink}
                 />
               ))
             }

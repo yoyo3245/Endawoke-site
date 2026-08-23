@@ -52,7 +52,7 @@ function getYoutubeStartSeconds(url) {
   }
 }
 
-const AwardItem = ({ title, year, description, link, linkLabel, youtubeUrl, previewImage }) => {
+const AwardItem = ({ title, year, description, link, linkLabel, youtubeUrl, previewImage, image, imageLink }) => {
   const [playing, setPlaying] = useState(false);
   const videoId = getYoutubeId(youtubeUrl);
   const startSeconds = getYoutubeStartSeconds(youtubeUrl);
@@ -100,6 +100,15 @@ const AwardItem = ({ title, year, description, link, linkLabel, youtubeUrl, prev
           <a href={link} target="_blank" rel="noopener noreferrer" className="award-link">
             {linkLabel || 'Learn more'}
           </a>
+        )}
+        {image && (
+          imageLink ? (
+            <a href={imageLink} target="_blank" rel="noopener noreferrer" className="award-image-link">
+              <img src={image} alt="" className="award-image" loading="lazy" />
+            </a>
+          ) : (
+            <img src={image} alt="" className="award-image" loading="lazy" />
+          )
         )}
       </div>
     </div>
