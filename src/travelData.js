@@ -328,7 +328,7 @@ const travelData = [
         title: "Bejing, China (July, 2006)",
         year: "2006",
         description: "COSPAR Conference.",
-        images: ["/Travel/CHINA/IMAG_01.JPG", "/Travel/CHINA/IMAG_02.JPG", "/Travel/CHINA/IMAG_03.JPG", "/Travel/CHINA/IMAG_04.JPG", "/Travel/CHINA/IMAG_05.JPG", "/Travel/CHINA/IMAG_06.JPG", "/Travel/CHINA/IMAG_07.JPG"],
+        images: ["/Travel/CHINA/IMG_01.jpg", "/Travel/CHINA/IMG_02.jpg", "/Travel/CHINA/IMG_03.jpg", "/Travel/CHINA/IMG_04.jpg", "/Travel/CHINA/IMG_05.jpg", "/Travel/CHINA/IMG_06.jpg", "/Travel/CHINA/IMG_07.jpg"],
     }
 
 ];
