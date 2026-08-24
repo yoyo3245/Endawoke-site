@@ -194,8 +194,8 @@ const travelData = [
         title: "Bath and London, UK (July 2013)",
         year: "2013",
         description: "BEACON Satellite Symposium.",
-        images: ["/Travel/UKL/IMAG_07.jpg", "/Travel/UKL/IMAG_10.jpg", "/Travel/UKL/IMAG_41.jpg", "/Travel/UKL/IMAG_09.jpg", 
-            "/Travel/UKL/IMAG_18.jpg", "/Travel/UKL/IMAG_20.jpg", "/Travel/UKL/IMAG_28.jpg", "/Travel/UKL/IMAG_43.jpg", "/Travel/UKL/IMAG_68.jpg"],
+        images: ["/Travel/UKL/IMG_01.jpg", "/Travel/UKL/IMG_02.jpg", "/Travel/UKL/IMG_03.jpg", "/Travel/UKL/IMG_04.jpg", 
+            "/Travel/UKL/IMG_05.jpg", "/Travel/UKL/IMG_06.jpg", "/Travel/UKL/IMG_07.jpg", "/Travel/UKL/IMG_08.jpg", "/Travel/UKL/IMG_09.jpg"],
     },
     {
         title: "Lalibela, Axum, & Addis Ababa, Ethiopia (November 2012)",
