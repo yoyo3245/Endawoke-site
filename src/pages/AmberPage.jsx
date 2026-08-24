@@ -24,14 +24,13 @@ const AmberPage = () => {
           </div>
         </div>
         <p className="amber-quick-links">
-          <a href="http://magnetometers.bc.edu/index.php/amber2" target="_blank" rel="noopener noreferrer">Official Page:</a>
+          <a href="https://sites.bc.edu/magnetometers/" target="_blank" rel="noopener noreferrer">Official Page:</a>
           {' '}
-          <a href="http://magnetometers.bc.edu/index.php/downloads" target="_blank" rel="noopener noreferrer">Data:</a>
+          <a href="https://sites.bc.edu/magnetometers/downloads/" target="_blank" rel="noopener noreferrer">Data:</a>
           {'  '}
-          <a href="/Travel/Collaborators.html" target="_blank" rel="noopener noreferrer">Collaborators:</a>
-          {'  '}
-          <a href="/Travel/spaceweather.html" target="_blank" rel="noopener noreferrer">Space weather:</a>
+          <a href="https://www.spaceweather.com/" target="_blank" rel="noopener noreferrer">Space weather:</a>
         </p>
+        <p className="amber-inquiries"> For any inquiries about AMBER project,<a href="mailto:endawokekassie@gmail.com"> contact us</a></p>
       </div>
 
       <h3 className="amber-title">
@@ -39,61 +38,46 @@ const AmberPage = () => {
           AMBER (African Meridian B-field Education and Research)
         </a>
       </h3>
-      <p className="amber-subtitle">NASA IHY Funded Project</p>
+      <p className="amber-subtitle"><a href="https://science.nasa.gov/heliophysics/"><u><b> NASA IHY </b></u></a>, <a href="https://www.afrl.af.mil/AFOSR/"><u><b> AFOSR</b></u></a>, and <a href="https://www.nsf.gov/funding/opportunities/aeronomy/"><u><b> NSF </b></u></a> NSF Funded Project</p>
       <p className="amber-pis">
-        PIs: Endawoke Yizengaw (PI) and Mark Moldwin (Co-I) from Boston College and University of Michigan, respectively
-      </p>
+        PIs: <b>Endawoke Yizengaw (PI)</b> and Mark Moldwin (Co-I) from Aerospace Corporation and University of Michigan, respectively </p>
 
       <div className="amber-body">
         <p>
-          It was quickly recognized that the observation of ionospheric processes over Africa represented the
-          best opportunity for new science. In order to have a complete global understanding of equatorial
-          ionosphere motions, deployment of ground-base magnetometers in Africa is essential. One focus of IHY
-          is the deployment of networks of small instruments, including the development of research
-          infrastructure in developing nations through the United Nations Basic Space Science (UNBSS) Small
-          Instrument Array. Today over 30 new instrument installations are either installed or in process, and
-          the NASA funded AMBER (African Meridian B-Field Education and Research) magnetometer array is one of
-          those deployed in Africa. The AMBER magnetometer array is comprised of four magnetometers. All of
-          them are already stationed in Adigrat in Ethiopia, Algiers in Algeria, Yaounde in Cameroon, and
-          Tsumeb in Namibia. Recently, in colaboration with SAMBA project, the fifth magnetometer, known as
-          AMBER-SAMBA magnetometer, has been deployed in Abuja, Nigeria. The Figure shows the location of AMBER
-          and SAMBA-AMBER magnetometer network. The specific location of each stations is shown in Table 1.
-          While polar-cap to equatorial coverage exist in the American meridian with the deployment of McMAC
-          array linking the expanded Canadian CARISMA (formerly CANOPUS) and the SAMBA arrays, in Europe the
-          coverage essentially ends with SEGMA in Italy. AMBER array is now connecting the European
-          magnetometer array to low latitudes by filling the largest land-based gap in global magnetometer
-          coverage in Africa, as is shown in the Figure. AMBER stations in Algiers, Abuja, Yaounde, and in
-          Tsumeb will be used for connecting IMAGE-SAMNET-SEGMA array to low and dip-equator latitudes, and
-          link up with South African Intermagnet and Antarctic magnetometers in the southern hemisphere so
-          that we can have complete meridian observation in the region.
+          Africa was quickly recognized as a promising region offering the best opportunity for new science on 
+          ionospheric processes. A complete global understanding of equatorial ionospheric motions requires the 
+          deployment of ground-based magnetometers on the continent. A key focus of the IHY is the deployment of 
+          networks of small instruments and the development of research infrastructure in developing nations through 
+          the United Nations Basic Space Science (UNBSS) Small Instrument Array. Over 30 new instruments were installed 
+          under the IHY programme, among them the NASA-funded AMBER (African Meridian B-Field Education and Research) 
+          magnetometer array in Africa. The initial AMBER array comprised four magnetometers, at Adigrat (Ethiopia), 
+          Algiers (Algeria), Yaoundé (Cameroon), and Tsumeb (Namibia). During the final phase of the IHY programme, 
+          a fifth instrument — the AMBER–SAMBA magnetometer — was deployed at Abuja, Nigeria, in collaboration with the 
+          SAMBA project. Since the start of the ISWI programme, the array has expanded further with the support from AFOSR: 
+          as of August 2026, <a href="https://sites.bc.edu/magnetometers/amber-network/"><u><b> fifteen magnetometers are deployed </b></u></a> at the locations listed in Table 1, and three more are scheduled for deployment.
         </p>
 
         <p>
-          In addition to filling the largest land-based gap in global magnetometer coverage, the AMBER array
+          In addition to filling the largest land-based gap in global magnetometer coverage, the AMBER array 
           will address two fundamental areas of space physics:
         </p>
 
         <p>
-          (1) the processes governing electrodynamics of the equatorial ionosphere as a function of latitude
+          (1) the processes governing the electrodynamics of the equatorial ionosphere as a function of latitude 
           (or L-shell), local time, longitude, magnetic activity, and season, and
         </p>
-
         <p>
-          (2) ULF pulsation strength and its connection with equatorial electrojet strength at low/mid-latitude
-          regions.
+          (2) ULF pulsation strength and its relationship to equatorial electrojet strength at low and middle latitudes.
         </p>
 
         <p>
-          In coordination with GPS receivers in Africa, AMBER magnetometer array will provide a great
-          opportunity to understand the electrodynamics that governs equatorial ionosphere motions. By
-          combining AMBER in Adigrat (~6.0 N magnetic) and INTERMAGNET in Addis Ababa (~0.13 N magnetic) for
-          east-african sector and AMBER in Yaounde (~5.9 S magnetic) and SAMBA-AMBER in Abuja (~0.55 S
-          magnetic) for west-African sector, the strength of equatorial electrojet (EEJ) and thus vertical ExB
-          drift is routinely estimated using a well known pair of magnetometers drift estimation technique.
-          Therefore, while the magnetometers routinely observe the F region plasma drift mechanism (ExB
-          drift), the GPS stations will monitor the structure of plasma at low/mid-latitudes in the African
-          sectors. Such combined observations provide enormous opportunity to understand the unique equatorial
-          ionospheric structures in the African sector that have been often detected by satellite observations.
+          In coordination with GPS receivers across Africa, the AMBER array offers an excellent opportunity to investigate 
+          the electrodynamics governing equatorial ionospheric motions. By pairing AMBER stations located on and off the 
+          magnetic equator, the strength of the equatorial electrojet (EEJ) — and hence the vertical E×B drift — can be 
+          estimated routinely using the well-established magnetometer-pair technique. While the magnetometers track 
+          F-region plasma drift, the GPS stations monitor plasma structure at low and middle latitudes in the same sectors. 
+          Together, these observations provide a valuable means of characterising the distinctive equatorial ionospheric 
+          structures over Africa that satellite measurements have frequently detected.
         </p>
 
         <p>
@@ -106,16 +90,20 @@ const AmberPage = () => {
           research activities in the future within their own countries. Data from AMBER magnetometer array
           will be directly accessible to space weather forecasters and the space science community at large.
         </p>
-
+        
         <p>
-          Recently, AMBER project received funding to expand (red dots in Figure shown here) the existing
-          magnetometer network in order to address the following fundamental science problems: (1) What are
-          the processes governing the formation of the four-cell pattern in a day-to-day basis as function of
-          local time, magnetic activity, season, and solar cycle? (2) what are the longitudinal differences in
-          the generation and development of plasma bubbles/irregularities, especially at the longitudes where
-          the four-cell pattern peaks are located; Is there any connection between the dayside drifts and the
-          formation of the bubbles/irregularities, primarily at the nodes of the four-cell pattern where the
-          drifts are believed to be stronger?
+          While polar-cap to equatorial coverage already exists along the American meridian, European coverage 
+          effectively ends with SEGMA in Italy. By closing this gap — extending the IMAGE–SAMNET–SEGMA chain to 
+          low and dip-equatorial latitudes and linking it to the South African INTERMAGNET stations — the AMBER 
+          network provides an opportunity to track ULF wave penetration along the European–African meridian.
+        </p>
+        <p>
+          Beyond enabling new scientific discoveries and advancing space science in Africa through collaborations 
+          between researchers in developing and developed nations, the AMBER project contributes to the broader 
+          development of heliophysics through cross-disciplinary studies of universal processes. It also supports 
+          the creation of sustainable research and training infrastructure at African universities, giving undergraduate 
+          students the opportunity to engage with space science and to pursue research careers within their own countries. 
+          Data from the AMBER array are freely available to space weather forecasters and to the wider space science community.
         </p>
       </div>
 

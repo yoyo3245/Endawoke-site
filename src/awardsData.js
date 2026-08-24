@@ -41,10 +41,8 @@ const awardsData = [
     title: "AGU Joanne Simpson Medalist and AGU Fellow",
     year: "2018",
     description: "For his significant contributions to the Earth and space sciences as an outstanding mid-career scientist.",
-    link: "/Publications/Fellow.pdf",
-    linkLabel: "View certificate",
     youtubeUrl: "https://youtu.be/GS3gbURz590?si=3Lc6eywWxYIypBfh&t=3408?t=56m49s",
-    previewImage: "/images/eaward.png",
+    previewImage: "/images/AGU_Award.jpg",
     },
     {
     title: "Associate Fellow of Ethiopian Academy of Sciences",
@@ -61,12 +59,18 @@ const awardsData = [
     imageLink: "https://afgps.org/",
     },
    {
+    title: "UN IHY Award",
+    year: "2009",
+    description: "For his best creative vision and outstanding leadership",
+    image: "/images/IMG_02.jpg",
+    imageLink: "/images/IMG_04.jpg",
+    },
+    {
     title: "UCLA Chancellor’s Award for Postdoctoral Research",
     year: "2006",
-    description: "For his significant contributions to...",
-    link: "/Publications/Fellow.pdf",
-    linkLabel: "View certificate",
-    previewImage: "/images/gqspring2006.png",
+    description: "For his important contributions to the interrelated missions of research, teaching, and public service at UCLA",
+    image: "/images/gqspring2006.png",
+    imageLink: "/Publications/gqspring06a.pdf",
     },
  ];
 

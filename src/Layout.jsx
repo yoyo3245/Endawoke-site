@@ -9,10 +9,7 @@ const Layout = () => {
         <div className="site-header-inner">
           <h1>Dr. Endawoke Yizengaw</h1>
           <p className="site-subtitle">
-            Senior Scientist at The Aerospace Corporation
-          </p>
-          <p className="site-subtitle">
-            <a href="mailto:endawokekassie@gmail.com">Contact Me</a>
+            Senior Scientist @ The Aerospace Corporation
           </p>
           <nav className="site-nav">
             <ul>
