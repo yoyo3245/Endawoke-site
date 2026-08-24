@@ -123,7 +123,8 @@ const travelData = [
         title: "Sangli and Mumbai, India (November 2016)",
         year: "2016",
         description: "UN ISWI Workshop.",
-        images: ["/Travel/INDIA3/IMAG_01.JPG", "/Travel/INDIA3/IMAG_02.JPG", "/Travel/INDIA3/IMAG_03.JPG", "/Travel/INDIA3/IMAG_04.JPG", "/Travel/INDIA3/IMAG_05.JPG", "/Travel/INDIA3/IMAG_06.JPG"],
+        images: ["/Travel/INDIA3/IMAG_01.JPG", "/Travel/INDIA3/IMAG_02.JPG", "/Travel/INDIA3/IMAG_03.JPG", "/Travel/INDIA3/IMAG_04.JPG", "/Travel/INDIA3/IMAG_05.JPG", 
+            "/Travel/INDIA3/IMAG_06.JPG","/Travel/INDIA3/IMG_07.jpg","/Travel/INDIA3/IMAG_08.jpg"],
     },
     {
         title: "Manila and Davao, Philippines (February 2016)",
@@ -136,7 +137,7 @@ const travelData = [
         title: "Belem and Petrolina, Brazil (February 2015)",
         year: "2015",
         description: "Magnetometer Deployment for the AMBER array.",
-        images: ["/Travel/BRAZIL2/IMG_01.jpg", "/Travel/BRAZIL2/IMG_02.jpg", "/Travel/BRAZIL2/IMG_03.jpg", "/Travel/BRAZIL2/IMG_04.jpg", "/Travel/BRAZIL2/IMG_05.jpg"],
+        images: ["/Travel/BRAZIL2/IMG_01.jpg", "/Travel/BRAZIL2/IMG_02.jpg", "/Travel/BRAZIL2/IMG_03.jpg", "/Travel/BRAZIL2/IMG_04.jpg", "/Travel/BRAZIL2/IMG_05.jpg", "/Travel/BRAZIL2/IMG_06.jpg", "/Travel/BRAZIL2/IMG_07.jpg"],
     },
     {
         title: "Xi'an, China (October 2014)",
