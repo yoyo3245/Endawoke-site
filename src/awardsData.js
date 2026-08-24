@@ -48,7 +48,7 @@ const awardsData = [
     title: "Associate Fellow of Ethiopian Academy of Sciences",
     year: "2018",
     description: "In recognition of his contributions towards the expansion of the frontiers of scientific knowledge",
-    image: "/images/IMG_03.jpg",
+    image: "/images/eas_logo.png",
     imageLink: "https://eas-et.org/eas-fellows/",
     },
    {
