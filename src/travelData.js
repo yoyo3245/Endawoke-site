@@ -115,11 +115,11 @@ const travelData = [
             "/Travel/SWITZERLAND/IMG_07.jpg", "/Travel/SWITZERLAND/IMG_08.jpg", "/Travel/SWITZERLAND/IMG_09.jpg", "/Travel/SWITZERLAND/IMG_10.jpg", "/Travel/SWITZERLAND/IMG_11.jpg", "/Travel/SWITZERLAND/IMG_12.jpg"],
     },
     {
-        title: "Taipei, Taiwan (March 2016)",
+        title: "Sangli and Mumbai, India (November 2016)",
         year: "2016",
-        description: "COSMIC Conference.",
-        images: ["/Travel/TAIWAN/IMG_01.jpg", "/Travel/TAIWAN/IMG_02.jpg", "/Travel/TAIWAN/IMG_03.jpg", "/Travel/TAIWAN/IMG_04.jpg", 
-            "/Travel/TAIWAN/IMG_05.jpg", "/Travel/TAIWAN/IMG_06.jpg", "/Travel/TAIWAN/IMG_07.jpg", "/Travel/TAIWAN/IMG_08.jpg", "/Travel/TAIWAN/IMG_09.jpg", "/Travel/TAIWAN/IMG_10.jpg"],
+        description: "UN ISWI Workshop.",
+        images: ["/Travel/INDIA3/IMAG_01.JPG", "/Travel/INDIA3/IMAG_02.JPG", "/Travel/INDIA3/IMAG_03.JPG", "/Travel/INDIA3/IMAG_04.JPG", "/Travel/INDIA3/IMAG_05.JPG", 
+            "/Travel/INDIA3/IMAG_06.JPG","/Travel/INDIA3/IMG_07.jpg","/Travel/INDIA3/IMG_08.jpg"],
     },
     {
         title: "Trieste and L'Aquila, Italy (June 2016)",
@@ -128,11 +128,11 @@ const travelData = [
         images: ["/Travel/ITALY3/IMAG_01.jpg", "/Travel/ITALY3/IMAG_02.jpg", "/Travel/ITALY3/IMAG_03.jpg", "/Travel/ITALY3/IMAG_04.jpg", "/Travel/ITALY3/IMAG_05.jpg"],
     },
     {
-        title: "Sangli and Mumbai, India (November 2016)",
+        title: "Taipei, Taiwan (March 2016)",
         year: "2016",
-        description: "UN ISWI Workshop.",
-        images: ["/Travel/INDIA3/IMAG_01.JPG", "/Travel/INDIA3/IMAG_02.JPG", "/Travel/INDIA3/IMAG_03.JPG", "/Travel/INDIA3/IMAG_04.JPG", "/Travel/INDIA3/IMAG_05.JPG", 
-            "/Travel/INDIA3/IMAG_06.JPG","/Travel/INDIA3/IMG_07.jpg","/Travel/INDIA3/IMG_08.jpg"],
+        description: "COSMIC Conference.",
+        images: ["/Travel/TAIWAN/IMG_01.jpg", "/Travel/TAIWAN/IMG_02.jpg", "/Travel/TAIWAN/IMG_03.jpg", "/Travel/TAIWAN/IMG_04.jpg", 
+            "/Travel/TAIWAN/IMG_05.jpg", "/Travel/TAIWAN/IMG_06.jpg", "/Travel/TAIWAN/IMG_07.jpg", "/Travel/TAIWAN/IMG_08.jpg", "/Travel/TAIWAN/IMG_09.jpg", "/Travel/TAIWAN/IMG_10.jpg"],
     },
     {
         title: "Manila and Davao, Philippines (February 2016)",
