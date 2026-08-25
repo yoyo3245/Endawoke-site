@@ -132,7 +132,7 @@ const travelData = [
         year: "2016",
         description: "UN ISWI Workshop.",
         images: ["/Travel/INDIA3/IMAG_01.JPG", "/Travel/INDIA3/IMAG_02.JPG", "/Travel/INDIA3/IMAG_03.JPG", "/Travel/INDIA3/IMAG_04.JPG", "/Travel/INDIA3/IMAG_05.JPG", 
-            "/Travel/INDIA3/IMAG_06.JPG","/Travel/INDIA3/IMG_07.jpg","/Travel/INDIA3/IMAG_08.jpg"],
+            "/Travel/INDIA3/IMAG_06.JPG","/Travel/INDIA3/IMG_07.jpg","/Travel/INDIA3/IMG_08.jpg"],
     },
     {
         title: "Manila and Davao, Philippines (February 2016)",
