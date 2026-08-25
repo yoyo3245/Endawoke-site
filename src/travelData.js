@@ -175,7 +175,9 @@ const travelData = [
         title: "Torres Del Paine National Park, Punta Arenas & La Serena, Chile (November 2013)",
         year: "2013",
         description: "MI Coupling Conference and SAMBA business meeting.",
-        images: ["/Travel/CHILE/IMAG_115.jpg", "/Travel/CHILE/IMG_14.jpg", "/Travel/CHILE/IMG_52.jpg"],
+        images: ["/Travel/CHILE/IMG_01.jpg", "/Travel/CHILE/IMG_02.jpg", "/Travel/CHILE/IMG_03.jpg", "/Travel/CHILE/IMG_04.jpg", "/Travel/CHILE/IMG_05.jpg", "/Travel/CHILE/IMG_06.jpg", "/Travel/CHILE/IMG_07.jpg",
+            "/Travel/CHILE/IMG_08.jpg", "/Travel/CHILE/IMG_09.jpg", "/Travel/CHILE/IMG_10.jpg", "/Travel/CHILE/IMG_11.jpg", "/Travel/CHILE/IMG_12.jpg", "/Travel/CHILE/IMG_13.jpg", "/Travel/CHILE/IMG_14.jpg", 
+            "/Travel/CHILE/IMG_15.jpg","/Travel/CHILE/IMG_16.jpg"],
     },
     {
         title: "Abidjan, Côte d’Ivoire (August 2013)",
@@ -188,7 +190,8 @@ const travelData = [
         title: "Conakry, Guinea (August 2013)",
         year: "2013",
         description: "Magnetometer Deployment for the AMBER array.",
-        images: ["/Travel/GUINEA/IMAG_056.jpg", "/Travel/GUINEA/IMAG_035.jpg", "/Travel/GUINEA/IMAG_121.jpg"],
+        images: ["/Travel/GUINEA/IMG_01.jpg", "/Travel/GUINEA/IMG_02.jpg", "/Travel/GUINEA/IMG_03.jpg", "/Travel/GUINEA/IMG_04.jpg", "/Travel/GUINEA/IMG_05.jpg",
+            "/Travel/GUINEA/IMG_06.jpg", "/Travel/GUINEA/IMG_07.jpg", "/Travel/GUINEA/IMG_08.jpg", "/Travel/GUINEA/IMG_09.jpg", "/Travel/GUINEA/IMG_10.jpg"],
     },
     {
         title: "Bath and London, UK (July 2013)",
