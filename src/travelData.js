@@ -98,14 +98,14 @@ const travelData = [
         year: "2017",
         description: "Magnetometer Deployment and GNSS Summer School.",
         images: ["/Travel/NIGERIA2/IMG_01.jpg", "/Travel/NIGERIA2/IMG_02.jpg", "/Travel/NIGERIA2/IMG_03.jpg", "/Travel/NIGERIA2/IMG_04.jpg", "/Travel/NIGERIA2/IMG_05.jpg", 
-            "/Travel/NIGERIA2/IMG_06.jpg", "/Travel/NIGERIA2/IMG_07.jpg", "/Travel/NIGERIA2/IMG_08.jpg", "/Travel/NIGERIA2/IMG_09.jpg", "/Travel/NIGERIA2/IMG_010.jpg"],
+            "/Travel/NIGERIA2/IMG_06.jpg", "/Travel/NIGERIA2/IMG_07.jpg", "/Travel/NIGERIA2/IMG_08.jpg", "/Travel/NIGERIA2/IMG_09.jpg", "/Travel/NIGERIA2/IMG_10.jpg"],
     },
     {
         title: "Rio de Janeiro, Brazil (March 2017)",
         year: "2017",
         description: "FAA Workshop.",
-        images: ["/Travel/BRAZIL3/IMAG_01.jpg", "/Travel/BRAZIL3/IMAG_02.jpg", "/Travel/BRAZIL3/IMAG_03.jpg", "/Travel/BRAZIL3/IMAG_04.jpg", 
-            "/Travel/BRAZIL3/IMAG_05.jpg","/Travel/BRAZIL3/IMAG_06.jpg","/Travel/BRAZIL3/IMAG_07.jpg"],
+        images: ["/Travel/BRAZIL3/IMG_01.jpg", "/Travel/BRAZIL3/IMG_02.jpg", "/Travel/BRAZIL3/IMG_03.jpg", "/Travel/BRAZIL3/IMG_04.jpg", 
+            "/Travel/BRAZIL3/IMG_05.jpg","/Travel/BRAZIL3/IMG_06.jpg","/Travel/BRAZIL3/IMG_07.jpg","/Travel/BRAZIL3/IMG_08.jpg"],
     },
     {
         title: "Bern and Geneva, Switzerland (April 2017)",
