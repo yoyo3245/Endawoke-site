@@ -199,6 +199,13 @@ const travelData = [
             "/Travel/CHILE/IMG_15.jpg","/Travel/CHILE/IMG_16.jpg"],
     },
     {
+        title: "The Bahamas (August 2013)",
+        year: "2013",
+        description: "Vacation.",
+        images: ["/Travel/BAHAMAS/IMG_01.jpg", "/Travel/BAHAMAS/IMG_02.jpg", "/Travel/BAHAMAS/IMG_03.jpg", "/Travel/BAHAMAS/IMG_04.jpg", "/Travel/BAHAMAS/IMG_05.jpg", "/Travel/BAHAMAS/IMG_06.jpg",
+            "/Travel/BAHAMAS/IMG_07.jpg", "/Travel/BAHAMAS/IMG_08.jpg", "/Travel/BAHAMAS/IMG_09.jpg", "/Travel/BAHAMAS/IMG_10.jpg", "/Travel/BAHAMAS/IMG_11.jpg", "/Travel/BAHAMAS/IMG_12.jpg"],
+    },
+    {
         title: "Abidjan, Côte d’Ivoire (August 2013)",
         year: "2013",
         description: "Magnetometer Deployment for the AMBER array.",
@@ -331,7 +338,7 @@ const travelData = [
     {
         title: "Perugia & Rome, Italy (July 2007)",
         year: "2007",
-        description: "Vacation.",
+        description: "IUGG Meeting.",
         images: ["/Travel/ITALY/IMG_01.jpg", "/Travel/ITALY/IMG_02.jpg", "/Travel/ITALY/IMG_03.jpg", "/Travel/ITALY/IMG_05.jpg", "/Travel/ITALY/IMG_06.jpg",
             "/Travel/ITALY/IMG_07.jpg", "/Travel/ITALY/IMG_08.jpg", "/Travel/ITALY/IMG_09.jpg", "/Travel/ITALY/IMG_10.jpg", "/Travel/ITALY/IMG_11.jpg", "/Travel/ITALY/IMG_12.jpg"],
     },
