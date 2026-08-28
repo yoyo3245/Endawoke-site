@@ -39,7 +39,7 @@ const mediaData = [
   },
   {
     imageSrc: "images/SBS_Amharic.png",
-    imageLink: "images/Yizengaw_on_SBS_Part_11.mp3",
+    imageLink: "images/Yizengaw_on_SBS_Part_1.mp3",
     imageAlt: "audio clip",
     textContent: "<i><b><a href=\"/images/Yizengaw_on_SBS_Part_2.mp3\"><h3>Part Two</h3></a></b></i><br/><i><b>In October 2013 the Australian SBS Amahric program’s Martha Tsegaw interviewed me about my AMBER project and personal life background. </b></i>"
   },
