@@ -11,7 +11,7 @@ const AmberPage = () => {
       <div className="amber-intro">
         <div className="amber-top-box">
           <div className="amber-top-cell amber-top-logo">
-            <a href="https://sites.bc.edu/magnetometers/amber-network/" target="_blank" rel="noopener noreferrer">
+            <a href="http://magnetometers.bc.edu/index.php/amber2" target="_blank" rel="noopener noreferrer">
               <img src={AMBER_LOGO} alt="AMBER magnetometer array logo" />
             </a>
           </div>
@@ -21,7 +21,9 @@ const AmberPage = () => {
             </p>
           </div>
           <div className="amber-top-cell amber-top-logo">
-            <img src={EEJS_LOGO} alt="AMBER magnetometer array logo" />
+            <a href="https://earthsky.org/space/space-weather-threatens-equatorial-regions-too/" target="_blank" rel="noopener noreferrer">
+              <img src={EEJS_LOGO} alt="AMBER magnetometer array logo" />
+            </a>
           </div>
         </div>
         <p className="amber-quick-links">
