@@ -4,7 +4,13 @@ import travelData from '../travelData';
 const TravelPage = () => {
   return (
     <section className="page-section">
-      <h2>Travel:</h2><i>Checkout <b> <a href="https://endawokeonscientificmission.blogspot.com"><u><b><i>my travel blog </i></b></u></a> </b></i>
+      <h2>Travel</h2>
+     {status === 'loading' && (
+        <div className="loading-state">
+          <span className="spinner" aria-hidden="true" />
+          <span><i>Checkout <b> <a href="https://endawokeonscientificmission.blogspot.com"><u><b><i>my travel blog </i></b></u></a> </b></i></span>
+        </div>
+      )}
       {
         travelData.length > 0 ? (
           <div className="travel-grid">
