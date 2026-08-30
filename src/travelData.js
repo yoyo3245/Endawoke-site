@@ -45,7 +45,7 @@ const travelData = [
               "/Travel/ZAMBIA2/IMG_06.jpg", "/Travel/ZAMBIA2/IMG_07.jpg", "/Travel/ZAMBIA2/IMG_08.PNG", "/Travel/ZAMBIA2/IMG_09.jpg"],
     },
     {
-        title: "Sapporo, Japan (May 2023)",
+        title: "Sapporo, Japan (August 2023)",
         year: "2023",
         description: "URSI General Assembly ",
         images: ["/Travel/JAPAN2/IMG_01.jpg", "/Travel/JAPAN2/IMG_02.jpg", "/Travel/JAPAN2/IMG_03.jpg", "/Travel/JAPAN2/IMG_04.jpg"],
@@ -57,6 +57,13 @@ const travelData = [
         images: ["/Travel/NORWAY/IMG_01.jpg", "/Travel/NORWAY/IMG_02.jpg", "/Travel/NORWAY/IMG_03.jpg", "/Travel/NORWAY/IMG_04.jpg", "/Travel/NORWAY/IMG_05.jpg", "/Travel/NORWAY/IMG_06.jpg",
               "/Travel/NORWAY/IMG_07.jpg", "/Travel/NORWAY/IMG_08.jpg", "/Travel/NORWAY/IMG_09.jpg", "/Travel/NORWAY/IMG_10.jpg", "/Travel/NORWAY/IMG_11.jpg", "/Travel/NORWAY/IMG_12.jpg", "/Travel/NORWAY/IMG_13.jpg",
               "/Travel/NORWAY/IMG_14.jpg", "/Travel/NORWAY/IMG_15.jpg", "/Travel/NORWAY/IMG_16.jpg", "/Travel/NORWAY/IMG_17.jpg", "/Travel/NORWAY/IMG_18.jpg", "/Travel/NORWAY/IMG_19.jpg", "/Travel/NORWAY/IMG_20.jpg"],
+    },
+    {
+        title: "Kyoto, Japan (September 2022)",
+        year: "2022",
+        description: "ISEA Conference",
+        images: ["/Travel/JAPAN1/IMG_01.jpg", "/Travel/JAPAN1/IMG_02.jpg", "/Travel/JAPAN1/IMG_03.jpg", "/Travel/JAPAN1/IMG_04.jpg", "/Travel/JAPAN1/IMG_05.jpg", "/Travel/JAPAN1/IMG_06.jpg", "/Travel/JAPAN1/IMG_07.jpg",
+                "/Travel/JAPAN1/IMG_08.jpg", "/Travel/JAPAN1/IMG_09.jpg", "/Travel/JAPAN1/IMG_10.jpg", "/Travel/JAPAN1/IMG_11.jpg", "/Travel/JAPAN1/IMG_12.jpg", "/Travel/JAPAN1/IMG_13.jpg", "/Travel/JAPAN1/IMG_14.jpg", "/Travel/JAPAN1/IMG_15.jpg"],
     },
     {
         title: "Athens, Greece (July 2022)",
@@ -147,6 +154,14 @@ const travelData = [
         description: "International Symposium Project for Solar-Terrestrial Environment Prediction (PSTEP)",
         images: ["/Travel/JAPAN/IMG_01.jpg", "/Travel/JAPAN/IMG_02.jpg", "/Travel/JAPAN/IMG_03.jpg", "/Travel/JAPAN/IMG_04.jpg", "/Travel/JAPAN/IMG_05.jpg",
               "/Travel/JAPAN/IMG_06.jpg", "/Travel/JAPAN/IMG_07.jpg"],
+    },
+    {
+        title: "Jerusalem, Bethlehem, Jéricho, Israel (August 2015)",
+        year: "2015",
+        description: "Vacation",
+        images: ["/Travel/ISRAEL/IMG_01.JPG", "/Travel/ISRAEL/IMG_02.JPG", "/Travel/ISRAEL/IMG_03.JPG", "/Travel/ISRAEL/IMG_04.JPG", "/Travel/ISRAEL/IMG_05.JPG", "/Travel/ISRAEL/IMG_06.JPG", "/Travel/ISRAEL/IMG_07.JPG",
+                "/Travel/ISRAEL/IMG_08.JPG", "/Travel/ISRAEL/IMG_09.JPG", "/Travel/ISRAEL/IMG_10.JPG", "/Travel/ISRAEL/IMG_11.JPG", "/Travel/ISRAEL/IMG_12.JPG", "/Travel/ISRAEL/IMG_13.JPG", "/Travel/ISRAEL/IMG_14.JPG", 
+                "/Travel/ISRAEL/IMG_15.JPG", "/Travel/ISRAEL/IMG_16.JPG", "/Travel/ISRAEL/IMG_17.JPG", "/Travel/ISRAEL/IMG_18.jpg"],
     },
     {
         title: "Belem and Petrolina, Brazil (February 2015)",
