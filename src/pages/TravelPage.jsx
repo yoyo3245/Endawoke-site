@@ -4,7 +4,7 @@ import travelData from '../travelData';
 const TravelPage = () => {
   return (
     <section className="page-section">
-      <h2>Travel</h2>
+      <h2>Travel:</h2><i>Checkout <b> <a href="https://endawokeonscientificmission.blogspot.com"><u><b><i>my travel blog </i></b></u></a> </b></i>
       {
         travelData.length > 0 ? (
           <div className="travel-grid">
