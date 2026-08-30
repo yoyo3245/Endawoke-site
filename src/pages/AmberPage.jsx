@@ -1,6 +1,7 @@
 import amberStations from '../amberData';
 
 const AMBER_LOGO = '/Travel/AMBER/AMBERLOG.jpg';
+const EEJS_LOGO = '/Travel/AMBER/animated_eej.gif';
 
 const AmberPage = () => {
   return (
@@ -10,7 +11,7 @@ const AmberPage = () => {
       <div className="amber-intro">
         <div className="amber-top-box">
           <div className="amber-top-cell amber-top-logo">
-            <a href="http://magnetometers.bc.edu/index.php/amber2" target="_blank" rel="noopener noreferrer">
+            <a href="https://sites.bc.edu/magnetometers/amber-network/" target="_blank" rel="noopener noreferrer">
               <img src={AMBER_LOGO} alt="AMBER magnetometer array logo" />
             </a>
           </div>
@@ -20,7 +21,7 @@ const AmberPage = () => {
             </p>
           </div>
           <div className="amber-top-cell amber-top-logo">
-            <img src={AMBER_LOGO} alt="AMBER magnetometer array logo" />
+            <img src={EEJS_LOGO} alt="AMBER magnetometer array logo" />
           </div>
         </div>
         <p className="amber-quick-links">
