@@ -24,8 +24,9 @@ const amberStations = [
   { city: "Puhket", country: "Thailand", flag: "/Travel/Thailand-flag.gif", code: "PUKT", geogLat: "7.89 N", geogLong: "98.40 E", magLat: "0.63 S", magLong: "169.95 E", lShell: "1.0", status: "Deployed"},
   { city: "Manila", country: "Philippines", flag: "/Travel/Philippines-flag.gif", code: "MNLA", geogLat: "14.58 N", geogLong: "120.90 E", magLat: "7.02 N", magLong: "167.86 W", lShell: "1.0", status: "Deployed"},
   { city: "Davao", country: "Philippines", flag: "/Travel/Philippines-flag.gif", code: "DAVO", geogLat: "7.06 N", geogLong: "125.60 E", magLat: "0.96 S", magLong: "163.27 W", lShell: "1.0", status: "Deployed"},
-  { city: "Christmas Island", country: null, flag: "/Travel/kiribati-flag.png", code: "CHIS", geogLat: "1.87 N", geogLong: "157.40 W", magLat: "1.4 N", magLong: "86.39 W", lShell: "1.0", status: "To be Deployed"},
   { city: "Kwajalein", country: null, flag: "/Travel/marshallislands-flag.png", code: "KWJL", geogLat: "9.19 N", geogLong: "167.46 E", magLat: "5.12 N", magLong: "122.22 W", lShell: "1.0", status: "Deployed"},
+  { city: "Wajir", country: "Kenya", flag: "/Travel/kenya-flag.png", code: "KNYA", geogLat: "1.747 N", geogLong: "40.057 E", magLat: "6.52 S", magLong: "113.896 E", lShell: "1.0", status: "To be Deployed"},
+  { city: "Christmas Island", country: null, flag: "/Travel/kiribati-flag.png", code: "CHIS", geogLat: "1.87 N", geogLong: "157.40 W", magLat: "1.4 N", magLong: "86.39 W", lShell: "1.0", status: "To be Deployed"},
 ];
 
 export default amberStations;
