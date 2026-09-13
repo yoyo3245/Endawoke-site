@@ -7,7 +7,7 @@ const Layout = () => {
     <div className="App">
       <header className="site-header">
         <div className="site-header-inner">
-          <h1>Dr. Endawoke Yizengaw</h1>
+          <h1>Endawoke Yizengaw (PhD)</h1>
           <p className="site-subtitle">
             Research interests include space weather, RF interference, and RF scintillation
           </p>
