@@ -73,6 +73,10 @@ function extractAuthors(contributors) {
   return names.length > 0 ? names : [YIZENGAW_FALLBACK_NAME];
 }
 
+// ORCID's bulk works endpoint rejects requests with more than 100 put-codes
+// (error-code 9042), so large publication lists must be fetched in batches.
+const MAX_PUT_CODES_PER_REQUEST = 100;
+
 async function fetchAllPublications() {
   const summaryRes = await fetch(ORCID_WORKS_URL, { headers: { Accept: 'application/json' } });
   if (!summaryRes.ok) throw new Error(`ORCID API error: ${summaryRes.status}`);
@@ -84,13 +88,23 @@ async function fetchAllPublications() {
 
   if (putCodes.length === 0) return [];
 
-  const bulkRes = await fetch(`${ORCID_WORKS_URL}/${putCodes.join(',')}`, {
-    headers: { Accept: 'application/json' },
-  });
-  if (!bulkRes.ok) throw new Error(`ORCID API error: ${bulkRes.status}`);
-  const bulkData = await bulkRes.json();
+  const chunks = [];
+  for (let i = 0; i < putCodes.length; i += MAX_PUT_CODES_PER_REQUEST) {
+    chunks.push(putCodes.slice(i, i + MAX_PUT_CODES_PER_REQUEST));
+  }
 
-  return (bulkData?.bulk || [])
+  const bulkResponses = await Promise.all(
+    chunks.map(async (chunk) => {
+      const bulkRes = await fetch(`${ORCID_WORKS_URL}/${chunk.join(',')}`, {
+        headers: { Accept: 'application/json' },
+      });
+      if (!bulkRes.ok) throw new Error(`ORCID API error: ${bulkRes.status}`);
+      return bulkRes.json();
+    })
+  );
+
+  return bulkResponses
+    .flatMap((bulkData) => bulkData?.bulk || [])
     .map((item) => item.work)
     .filter(Boolean)
     .map((work) => ({
