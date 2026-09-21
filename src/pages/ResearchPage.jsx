@@ -114,14 +114,12 @@ async function fetchAllPublications() {
       year: work['publication-date']?.year?.value
         ? parseInt(work['publication-date'].year.value, 10)
         : null,
-      month: work['publication-date']?.month?.value
-        ? parseInt(work['publication-date'].month.value, 10)
-        : 0,
+      createdDate: work['created-date']?.value || 0,
       doi: extractDoi(work['external-ids']),
       authors: extractAuthors(work.contributors),
     }))
     .filter((pub) => pub.year)
-    .sort((a, b) => b.year - a.year || b.month - a.month);
+    .sort((a, b) => b.createdDate - a.createdDate);
 }
 
 function AuthorList({ authors }) {
