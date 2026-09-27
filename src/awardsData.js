@@ -41,8 +41,8 @@ const awardsData = [
     title: "AGU Space Physics and Aeronomy Richard Carrington Education and Public Outreach (SPARC) Award",
     year: "2026",
     description: "For bringing authentic space physics research to developing countries and inspiringlearners worldwide",
-    youtubeUrl: "https://www.agu.org/honors-home/announcement/section-awards-lectures",
-    previewImage: "/images/SPARC_award.jpg",
+    image: "/images/SPARC_award.jpg",
+    imageLink: "https://www.agu.org/honors-home/announcement/section-awards-lectures/",
     },
     {
     title: "AGU Joanne Simpson Medalist and AGU Fellow",
