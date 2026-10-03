@@ -42,7 +42,7 @@ const awardsData = [
     year: "2026",
     description: "For bringing authentic space physics research to developing countries and inspiring learners worldwide",
     image: "/images/SPARC_award.jpg",
-    imageLink: "https://www.agu.org/honors-home/announcement/section-awards-lectures/",
+    imageLink: "https://www.agu.org/honors/sparc/past-recipients",
     },
     {
     title: "AGU Joanne Simpson Medalist and AGU Fellow",
