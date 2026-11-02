@@ -114,12 +114,11 @@ async function fetchAllPublications() {
       year: work['publication-date']?.year?.value
         ? parseInt(work['publication-date'].year.value, 10)
         : null,
-      createdDate: work['created-date']?.value || 0,
       doi: extractDoi(work['external-ids']),
       authors: extractAuthors(work.contributors),
     }))
     .filter((pub) => pub.year)
-    .sort((a, b) => b.createdDate - a.createdDate);
+    .sort((a, b) => b.year - a.year);
 }
 
 function AuthorList({ authors }) {
