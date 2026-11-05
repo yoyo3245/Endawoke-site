@@ -24,6 +24,15 @@
 
 const travelData = [
     {
+        title: "Casablanca, Rabat, Meknes, Fez, and Marrakesh, Morocco (November 2026)",
+        year: "2026",
+        description: "Vacation",
+        images: ["/Travel/MOROCCO/IMG_01.JPG", "/Travel/MOROCCO/IMG_02.JPG", "/Travel/MOROCCO/IMG_03.JPG", "/Travel/MOROCCO/IMG_04.JPG", "/Travel/MOROCCO/IMG_05.JPG",
+              "/Travel/MOROCCO/IMG_06.JPG", "/Travel/MOROCCO/IMG_07.JPG", "/Travel/MOROCCO/IMG_08.JPG", "/Travel/MOROCCO/IMG_09.JPG", "/Travel/MOROCCO/IMG_10.JPG",
+              "/Travel/MOROCCO/IMG_11.JPG", "/Travel/MOROCCO/IMG_12.JPG", "/Travel/MOROCCO/IMG_13.JPG", "/Travel/MOROCCO/IMG_14.JPG", "/Travel/MOROCCO/IMG_15.JPG",
+              "/Travel/MOROCCO/IMG_16.JPG"],
+    },
+    {
         title: "Rome and Florence, Italy (October 2025)",
         year: "2025",
         description: "BEACON Satellite Symposium and GNSS Workshop",
